@@ -1,5 +1,5 @@
 # -----------ARGS---------------------
-ROOT_DIR = "/home/daizelin/bert_ner/"
+ROOT_DIR = "/home/shenfei1/repos/bert_ner/"
 RAW_SOURCE_DATA = "data/source_BIO_2014_cropus.txt"
 RAW_TARGET_DATA = "data/target_BIO_2014_cropus.txt"
 STOP_WORD_LIST = None
@@ -31,4 +31,4 @@ gradient_accumulation_steps = 1
 fp16 = False
 loss_scale = 0.
 labels = ["B_PER", "I_PER", "B_T", "I_T", "B_ORG", "I_ORG", "B_LOC", "I_LOC", "O"]
-device = "cuda:1"
+device = "cuda:3"
