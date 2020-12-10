@@ -13,7 +13,7 @@ data_dir = "data/"                            # 原始数据文件夹，应包�
 cache_dir = "model/"
 output_dir = "output/checkpoint"              # checkpoint和预测输出文件夹
 
-bert_model = "model/pytorch_pretrained_model" # BERT 预训练模型种类 bert-base-chinese
+bert_model = "/home/shenfei1/shenfei/models" # BERT 预训练模型种类 bert-base-chinese
 task_name = "bert_ner"                      # 训练任务名称
 
 
