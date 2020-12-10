@@ -1,5 +1,5 @@
 # -----------ARGS---------------------
-ROOT_DIR = "/home/shenfei1/repos/Bert_Chinese_Ner_pytorch/bert_ner/"
+ROOT_DIR = "/home/shenfei1/shenfei/repos/Bert_Chinese_Ner_pytorch/bert_ner/"
 RAW_SOURCE_DATA = "data/source_BIO_2014_cropus.txt"
 RAW_TARGET_DATA = "data/target_BIO_2014_cropus.txt"
 STOP_WORD_LIST = None
