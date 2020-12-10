@@ -1,4 +1,4 @@
-import torch
+import torch, ipdb
 import torch.nn as nn
 from torch.autograd import Variable
 
@@ -90,6 +90,7 @@ class CRF(nn.Module):
         num_tag = inputs.size(2)
         num_chars = torch.sum(output_mask.detach()).float()
         for ix, (features, tag) in enumerate(zip(inputs, tags)):
+            ipdb.set_trace()
             # 过滤[CLS] [SEP] sub_word
             # features (time_steps, num_tag)
             # output_mask (batch_size, time_step)
